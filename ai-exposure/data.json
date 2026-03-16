@@ -7,7 +7,6 @@
     "num_occupations": 9,
     "latest_lfpr": 60.1,
     "latest_ur": 3.2,
-    "latest_regular_wage": 20702.3,
     "data_source": "PLFS 2023-24, Ministry of Statistics & Programme Implementation",
     "data_year": "2023-24",
     "data_years": [
@@ -81,8 +80,8 @@
       "section_code": 2,
       "sector": "Primary",
       "worker_pct": 46.1,
-      "workers_millions": 260.0,
-      "ai_exposure": 2.0,
+      "workers_millions": 260,
+      "ai_exposure": 2,
       "ai_rationale": "Agriculture: Physical, outdoor, minimal digital. Hands-on work in unpredictable environments.",
       "trend": [
         {
@@ -120,7 +119,7 @@
       "name": "Construction",
       "section_code": 7,
       "sector": "Secondary",
-      "worker_pct": 12.0,
+      "worker_pct": 12,
       "workers_millions": 67.68,
       "ai_exposure": 3.5,
       "ai_rationale": "Construction: Physical, site-based. Some digital in design/BIM but execution is manual.",
@@ -147,11 +146,11 @@
         },
         {
           "year": "2022-23",
-          "value": 13.0
+          "value": 13
         },
         {
           "year": "2023-24",
-          "value": 12.0
+          "value": 12
         }
       ]
     },
@@ -202,7 +201,7 @@
       "sector": "Tertiary",
       "worker_pct": 10.2,
       "workers_millions": 57.53,
-      "ai_exposure": 6.0,
+      "ai_exposure": 6,
       "ai_rationale": "Trade: E-commerce disruption, inventory/pricing AI, demand forecasting. Increasingly digital.",
       "trend": [
         {
@@ -280,9 +279,9 @@
       "name": "Education",
       "section_code": 17,
       "sector": "Tertiary",
-      "worker_pct": 3.0,
+      "worker_pct": 3,
       "workers_millions": 16.92,
-      "ai_exposure": 6.0,
+      "ai_exposure": 6,
       "ai_rationale": "Education: AI tutoring, content generation, grading. But teaching requires human presence.",
       "trend": [
         {
@@ -303,7 +302,7 @@
         },
         {
           "year": "2021-22",
-          "value": 3.0
+          "value": 3
         },
         {
           "year": "2022-23",
@@ -311,7 +310,7 @@
         },
         {
           "year": "2023-24",
-          "value": 3.0
+          "value": 3
         }
       ]
     },
@@ -320,9 +319,9 @@
       "name": "Accommodation & Food Services",
       "section_code": 10,
       "sector": "Tertiary",
-      "worker_pct": 2.0,
+      "worker_pct": 2,
       "workers_millions": 11.28,
-      "ai_exposure": 4.0,
+      "ai_exposure": 4,
       "ai_rationale": "Accommodation/Food: Service-oriented, hospitality requires human presence. AI for booking/scheduling.",
       "trend": [
         {
@@ -351,7 +350,7 @@
         },
         {
           "year": "2023-24",
-          "value": 2.0
+          "value": 2
         }
       ]
     },
@@ -362,7 +361,7 @@
       "sector": "Tertiary",
       "worker_pct": 1.7,
       "workers_millions": 9.59,
-      "ai_exposure": 4.0,
+      "ai_exposure": 4,
       "ai_rationale": "Other Services: Mixed personal services — repair, religious, political activities.",
       "trend": [
         {
@@ -407,19 +406,19 @@
       "trend": [
         {
           "year": "2017-18",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2018-19",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2019-20",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2020-21",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2021-22",
@@ -482,7 +481,7 @@
       "sector": "Tertiary",
       "worker_pct": 1.4,
       "workers_millions": 7.9,
-      "ai_exposure": 5.0,
+      "ai_exposure": 5,
       "ai_rationale": "Health: Diagnostics AI advances, but physical care, empathy, and procedures require humans.",
       "trend": [
         {
@@ -522,7 +521,7 @@
       "sector": "Tertiary",
       "worker_pct": 1.3,
       "workers_millions": 7.33,
-      "ai_exposure": 2.0,
+      "ai_exposure": 2,
       "ai_rationale": "Household Activities: Domestic work, physical presence required. No digital core.",
       "trend": [
         {
@@ -562,7 +561,7 @@
       "sector": "Tertiary",
       "worker_pct": 1.1,
       "workers_millions": 6.2,
-      "ai_exposure": 8.0,
+      "ai_exposure": 8,
       "ai_rationale": "Finance/Insurance: Fintech, algorithmic trading, robo-advisory, fraud detection. Highly digital.",
       "trend": [
         {
@@ -579,11 +578,11 @@
         },
         {
           "year": "2020-21",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2021-22",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2022-23",
@@ -602,7 +601,7 @@
       "sector": "Tertiary",
       "worker_pct": 0.9,
       "workers_millions": 5.08,
-      "ai_exposure": 7.0,
+      "ai_exposure": 7,
       "ai_rationale": "Admin/Support: Data entry, scheduling, customer service — structured information processing.",
       "trend": [
         {
@@ -615,7 +614,7 @@
         },
         {
           "year": "2019-20",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2020-21",
@@ -682,7 +681,7 @@
       "sector": "Secondary",
       "worker_pct": 0.3,
       "workers_millions": 1.69,
-      "ai_exposure": 5.0,
+      "ai_exposure": 5,
       "ai_rationale": "Electricity/Gas: Grid management, SCADA systems increasingly digital. AI optimizes distribution.",
       "trend": [
         {
@@ -722,7 +721,7 @@
       "sector": "Secondary",
       "worker_pct": 0.3,
       "workers_millions": 1.69,
-      "ai_exposure": 3.0,
+      "ai_exposure": 3,
       "ai_rationale": "Water/Waste: Physical service delivery, field operations. Limited digital core work.",
       "trend": [
         {
@@ -762,7 +761,7 @@
       "sector": "Secondary",
       "worker_pct": 0.2,
       "workers_millions": 1.13,
-      "ai_exposure": 3.0,
+      "ai_exposure": 3,
       "ai_rationale": "Mining: Physical extraction, some automation potential in planning/geology.",
       "trend": [
         {
@@ -881,9 +880,9 @@
       "code": 6,
       "name": "Skilled Agricultural Workers",
       "division_code": 7,
-      "worker_pct": 38.0,
+      "worker_pct": 38,
       "workers_millions": 214.32,
-      "ai_exposure": 2.0,
+      "ai_exposure": 2,
       "ai_rationale": "Skilled Agricultural Workers: Manual farming, animal husbandry. Physical, outdoor, minimal digital.",
       "trend": [
         {
@@ -912,7 +911,7 @@
         },
         {
           "year": "2023-24",
-          "value": 38.0
+          "value": 38
         }
       ]
     },
@@ -1039,7 +1038,7 @@
       "division_code": 3,
       "worker_pct": 5.3,
       "workers_millions": 29.89,
-      "ai_exposure": 7.0,
+      "ai_exposure": 7,
       "ai_rationale": "Professionals: Knowledge work, research, analysis — heavy AI augmentation potential.",
       "trend": [
         {
@@ -1060,7 +1059,7 @@
         },
         {
           "year": "2021-22",
-          "value": 5.0
+          "value": 5
         },
         {
           "year": "2022-23",
@@ -1078,7 +1077,7 @@
       "division_code": 9,
       "worker_pct": 5.3,
       "workers_millions": 29.89,
-      "ai_exposure": 5.0,
+      "ai_exposure": 5,
       "ai_rationale": "Machine Operators: Repetitive but physical. Increasing automation in factories.",
       "trend": [
         {
@@ -1117,7 +1116,7 @@
       "division_code": 2,
       "worker_pct": 3.2,
       "workers_millions": 18.05,
-      "ai_exposure": 6.0,
+      "ai_exposure": 6,
       "ai_rationale": "Legislators/Managers: Decision-making aided by AI analytics, but leadership requires judgment.",
       "trend": [
         {
@@ -1156,12 +1155,12 @@
       "division_code": 4,
       "worker_pct": 2.3,
       "workers_millions": 12.97,
-      "ai_exposure": 7.0,
+      "ai_exposure": 7,
       "ai_rationale": "Technicians: Technical diagnostics, data interpretation. AI-assisted work growing rapidly.",
       "trend": [
         {
           "year": "2017-18",
-          "value": 4.0
+          "value": 4
         },
         {
           "year": "2018-19",
@@ -1195,12 +1194,12 @@
       "division_code": 5,
       "worker_pct": 2.1,
       "workers_millions": 11.84,
-      "ai_exposure": 9.0,
+      "ai_exposure": 9,
       "ai_rationale": "Clerks: Data entry, filing, record-keeping — routine information processing, highly automatable.",
       "trend": [
         {
           "year": "2017-18",
-          "value": 2.0
+          "value": 2
         },
         {
           "year": "2018-19",
@@ -1216,7 +1215,7 @@
         },
         {
           "year": "2021-22",
-          "value": 2.0
+          "value": 2
         },
         {
           "year": "2022-23",
@@ -1290,7 +1289,7 @@
         },
         {
           "year": "2022-23",
-          "value": 56.0
+          "value": 56
         },
         {
           "year": "2023-24",
@@ -1304,7 +1303,7 @@
       "data": [
         {
           "year": "2017-18",
-          "value": 6.0
+          "value": 6
         },
         {
           "year": "2018-19",
@@ -1350,7 +1349,7 @@
         },
         {
           "year": "2020-21",
-          "value": 77.0
+          "value": 77
         },
         {
           "year": "2021-22",
@@ -1376,7 +1375,7 @@
         },
         {
           "year": "2019-20",
-          "value": 30.0
+          "value": 30
         },
         {
           "year": "2020-21",
@@ -1388,7 +1387,7 @@
         },
         {
           "year": "2022-23",
-          "value": 37.0
+          "value": 37
         },
         {
           "year": "2023-24",
@@ -1434,11 +1433,11 @@
         },
         {
           "year": "2018-19",
-          "value": 71.0
+          "value": 71
         },
         {
           "year": "2019-20",
-          "value": 73.0
+          "value": 73
         },
         {
           "year": "2020-21",
@@ -1450,7 +1449,7 @@
         },
         {
           "year": "2022-23",
-          "value": 76.0
+          "value": 76
         },
         {
           "year": "2023-24",
@@ -1460,7 +1459,7 @@
       "female": [
         {
           "year": "2017-18",
-          "value": 22.0
+          "value": 22
         },
         {
           "year": "2018-19",
@@ -1510,7 +1509,7 @@
         },
         {
           "year": "2022-23",
-          "value": 56.0
+          "value": 56
         },
         {
           "year": "2023-24",
@@ -1526,11 +1525,11 @@
         },
         {
           "year": "2018-19",
-          "value": 6.0
+          "value": 6
         },
         {
           "year": "2019-20",
-          "value": 5.0
+          "value": 5
         },
         {
           "year": "2020-21",
@@ -1582,7 +1581,7 @@
       "person": [
         {
           "year": "2017-18",
-          "value": 6.0
+          "value": 6
         },
         {
           "year": "2018-19",
@@ -1646,7 +1645,7 @@
       "Graduate": [
         {
           "year": "2017-18",
-          "value": 60.0
+          "value": 60
         },
         {
           "year": "2018-19",
@@ -1700,7 +1699,7 @@
         },
         {
           "year": "2023-24",
-          "value": 48.0
+          "value": 48
         }
       ],
       "Literate & Upto Primary": [
@@ -1722,7 +1721,7 @@
         },
         {
           "year": "2021-22",
-          "value": 63.0
+          "value": 63
         },
         {
           "year": "2022-23",
@@ -1782,7 +1781,7 @@
         },
         {
           "year": "2021-22",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2022-23",
@@ -1820,7 +1819,7 @@
         },
         {
           "year": "2023-24",
-          "value": 71.0
+          "value": 71
         }
       ],
       "Secondary": [
@@ -1998,7 +1997,7 @@
         },
         {
           "year": "2022-23",
-          "value": 65.0
+          "value": 65
         },
         {
           "year": "2023-24",
@@ -2016,7 +2015,7 @@
         },
         {
           "year": "2019-20",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2020-21",
@@ -2088,7 +2087,7 @@
         },
         {
           "year": "2022-23",
-          "value": 62.0
+          "value": 62
         },
         {
           "year": "2023-24",
@@ -2114,7 +2113,7 @@
         },
         {
           "year": "2021-22",
-          "value": 45.0
+          "value": 45
         },
         {
           "year": "2022-23",
@@ -2136,7 +2135,7 @@
         },
         {
           "year": "2019-20",
-          "value": 46.0
+          "value": 46
         },
         {
           "year": "2020-21",
@@ -2176,7 +2175,7 @@
         },
         {
           "year": "2021-22",
-          "value": 13.0
+          "value": 13
         },
         {
           "year": "2022-23",
@@ -2214,7 +2213,7 @@
         },
         {
           "year": "2023-24",
-          "value": 13.0
+          "value": 13
         }
       ],
       "Higher Secondary": [
@@ -2266,7 +2265,7 @@
         },
         {
           "year": "2021-22",
-          "value": 1.0
+          "value": 1
         },
         {
           "year": "2022-23",
@@ -2404,7 +2403,7 @@
         },
         {
           "year": "2018-19",
-          "value": 11.0
+          "value": 11
         },
         {
           "year": "2019-20",
@@ -2433,7 +2432,7 @@
     {
       "name": "Andaman & Nicobar Islands",
       "lfpr_latest": 65.7,
-      "wpr_latest": 58.0,
+      "wpr_latest": 58,
       "ur_latest": 11.8,
       "lfpr_trend": [
         {
@@ -2446,11 +2445,11 @@
         },
         {
           "year": "2019-20",
-          "value": 57.0
+          "value": 57
         },
         {
           "year": "2020-21",
-          "value": 64.0
+          "value": 64
         },
         {
           "year": "2021-22",
@@ -2488,11 +2487,11 @@
         },
         {
           "year": "2022-23",
-          "value": 60.0
+          "value": 60
         },
         {
           "year": "2023-24",
-          "value": 58.0
+          "value": 58
         }
       ],
       "ur_trend": [
@@ -2634,13 +2633,13 @@
     },
     {
       "name": "Arunachal Pradesh",
-      "lfpr_latest": 73.0,
+      "lfpr_latest": 73,
       "wpr_latest": 68.5,
       "ur_latest": 6.1,
       "lfpr_trend": [
         {
           "year": "2017-18",
-          "value": 45.0
+          "value": 45
         },
         {
           "year": "2018-19",
@@ -2664,7 +2663,7 @@
         },
         {
           "year": "2023-24",
-          "value": 73.0
+          "value": 73
         }
       ],
       "wpr_trend": [
@@ -2730,7 +2729,7 @@
       "lfpr_by_gender": {
         "male": 79.2,
         "female": 66.5,
-        "person": 73.0
+        "person": 73
       }
     },
     {
@@ -2838,7 +2837,7 @@
       "name": "Bihar",
       "lfpr_latest": 53.2,
       "wpr_latest": 51.6,
-      "ur_latest": 3.0,
+      "ur_latest": 3,
       "lfpr_trend": [
         {
           "year": "2017-18",
@@ -2892,7 +2891,7 @@
         },
         {
           "year": "2022-23",
-          "value": 47.0
+          "value": 47
         },
         {
           "year": "2023-24",
@@ -2902,7 +2901,7 @@
       "ur_trend": [
         {
           "year": "2017-18",
-          "value": 7.0
+          "value": 7
         },
         {
           "year": "2018-19",
@@ -2926,7 +2925,7 @@
         },
         {
           "year": "2023-24",
-          "value": 3.0
+          "value": 3
         }
       ],
       "lfpr_by_gender": {
@@ -3003,7 +3002,7 @@
       "ur_trend": [
         {
           "year": "2017-18",
-          "value": 9.0
+          "value": 9
         },
         {
           "year": "2018-19",
@@ -3023,7 +3022,7 @@
         },
         {
           "year": "2022-23",
-          "value": 4.0
+          "value": 4
         },
         {
           "year": "2023-24",
@@ -3032,7 +3031,7 @@
       ],
       "lfpr_by_gender": {
         "male": 76.9,
-        "female": 31.0,
+        "female": 31,
         "person": 54.7
       }
     },
@@ -3181,7 +3180,7 @@
         },
         {
           "year": "2019-20",
-          "value": 3.0
+          "value": 3
         }
       ]
     },
@@ -3211,7 +3210,7 @@
       "wpr_trend": [
         {
           "year": "2020-21",
-          "value": 54.0
+          "value": 54
         },
         {
           "year": "2021-22",
@@ -3219,7 +3218,7 @@
         },
         {
           "year": "2022-23",
-          "value": 65.0
+          "value": 65
         },
         {
           "year": "2023-24",
@@ -3290,7 +3289,7 @@
         },
         {
           "year": "2018-19",
-          "value": 0.0
+          "value": 0
         },
         {
           "year": "2019-20",
@@ -3427,7 +3426,7 @@
         },
         {
           "year": "2022-23",
-          "value": 50.0
+          "value": 50
         },
         {
           "year": "2023-24",
@@ -3483,7 +3482,7 @@
         },
         {
           "year": "2021-22",
-          "value": 12.0
+          "value": 12
         },
         {
           "year": "2022-23",
@@ -3524,7 +3523,7 @@
         },
         {
           "year": "2021-22",
-          "value": 58.0
+          "value": 58
         },
         {
           "year": "2022-23",
@@ -3550,7 +3549,7 @@
         },
         {
           "year": "2020-21",
-          "value": 55.0
+          "value": 55
         },
         {
           "year": "2021-22",
@@ -3576,7 +3575,7 @@
         },
         {
           "year": "2019-20",
-          "value": 2.0
+          "value": 2
         },
         {
           "year": "2020-21",
@@ -3584,7 +3583,7 @@
         },
         {
           "year": "2021-22",
-          "value": 2.0
+          "value": 2
         },
         {
           "year": "2022-23",
@@ -3597,7 +3596,7 @@
       ],
       "lfpr_by_gender": {
         "male": 82.4,
-        "female": 46.0,
+        "female": 46,
         "person": 64.6
       }
     },
@@ -3651,7 +3650,7 @@
         },
         {
           "year": "2020-21",
-          "value": 44.0
+          "value": 44
         },
         {
           "year": "2021-22",
@@ -3685,7 +3684,7 @@
         },
         {
           "year": "2021-22",
-          "value": 9.0
+          "value": 9
         },
         {
           "year": "2022-23",
@@ -3786,7 +3785,7 @@
         },
         {
           "year": "2021-22",
-          "value": 4.0
+          "value": 4
         },
         {
           "year": "2022-23",
@@ -3823,7 +3822,7 @@
         },
         {
           "year": "2020-21",
-          "value": 59.0
+          "value": 59
         },
         {
           "year": "2021-22",
@@ -3841,7 +3840,7 @@
       "wpr_trend": [
         {
           "year": "2017-18",
-          "value": 51.0
+          "value": 51
         },
         {
           "year": "2018-19",
@@ -3907,7 +3906,7 @@
     {
       "name": "Jharkhand",
       "lfpr_latest": 63.8,
-      "wpr_latest": 63.0,
+      "wpr_latest": 63,
       "ur_latest": 1.3,
       "lfpr_trend": [
         {
@@ -3966,7 +3965,7 @@
         },
         {
           "year": "2023-24",
-          "value": 63.0
+          "value": 63
         }
       ],
       "ur_trend": [
@@ -3988,7 +3987,7 @@
         },
         {
           "year": "2021-22",
-          "value": 2.0
+          "value": 2
         },
         {
           "year": "2022-23",
@@ -4033,7 +4032,7 @@
         },
         {
           "year": "2022-23",
-          "value": 57.0
+          "value": 57
         },
         {
           "year": "2023-24",
@@ -4059,7 +4058,7 @@
         },
         {
           "year": "2021-22",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2022-23",
@@ -4102,7 +4101,7 @@
       ],
       "lfpr_by_gender": {
         "male": 75.5,
-        "female": 38.0,
+        "female": 38,
         "person": 56.8
       }
     },
@@ -4130,7 +4129,7 @@
         },
         {
           "year": "2021-22",
-          "value": 54.0
+          "value": 54
         },
         {
           "year": "2022-23",
@@ -4178,11 +4177,11 @@
         },
         {
           "year": "2018-19",
-          "value": 9.0
+          "value": 9
         },
         {
           "year": "2019-20",
-          "value": 10.0
+          "value": 10
         },
         {
           "year": "2020-21",
@@ -4194,7 +4193,7 @@
         },
         {
           "year": "2022-23",
-          "value": 7.0
+          "value": 7
         },
         {
           "year": "2023-24",
@@ -4249,7 +4248,7 @@
         },
         {
           "year": "2022-23",
-          "value": 57.0
+          "value": 57
         },
         {
           "year": "2023-24",
@@ -4330,7 +4329,7 @@
         },
         {
           "year": "2019-20",
-          "value": 48.0
+          "value": 48
         },
         {
           "year": "2020-21",
@@ -4389,7 +4388,7 @@
       "name": "Madhya Pradesh",
       "lfpr_latest": 68.9,
       "wpr_latest": 68.3,
-      "ur_latest": 1.0,
+      "ur_latest": 1,
       "lfpr_trend": [
         {
           "year": "2017-18",
@@ -4409,7 +4408,7 @@
         },
         {
           "year": "2021-22",
-          "value": 62.0
+          "value": 62
         },
         {
           "year": "2022-23",
@@ -4461,7 +4460,7 @@
         },
         {
           "year": "2019-20",
-          "value": 3.0
+          "value": 3
         },
         {
           "year": "2020-21",
@@ -4477,19 +4476,19 @@
         },
         {
           "year": "2023-24",
-          "value": 1.0
+          "value": 1
         }
       ],
       "lfpr_by_gender": {
-        "male": 85.0,
+        "male": 85,
         "female": 52.3,
         "person": 68.9
       }
     },
     {
       "name": "Maharashtra",
-      "lfpr_latest": 59.0,
-      "wpr_latest": 57.0,
+      "lfpr_latest": 59,
+      "wpr_latest": 57,
       "ur_latest": 3.3,
       "lfpr_trend": [
         {
@@ -4506,7 +4505,7 @@
         },
         {
           "year": "2020-21",
-          "value": 56.0
+          "value": 56
         },
         {
           "year": "2021-22",
@@ -4518,7 +4517,7 @@
         },
         {
           "year": "2023-24",
-          "value": 59.0
+          "value": 59
         }
       ],
       "wpr_trend": [
@@ -4548,7 +4547,7 @@
         },
         {
           "year": "2023-24",
-          "value": 57.0
+          "value": 57
         }
       ],
       "ur_trend": [
@@ -4558,7 +4557,7 @@
         },
         {
           "year": "2018-19",
-          "value": 5.0
+          "value": 5
         },
         {
           "year": "2019-20",
@@ -4584,13 +4583,13 @@
       "lfpr_by_gender": {
         "male": 77.2,
         "female": 40.1,
-        "person": 59.0
+        "person": 59
       }
     },
     {
       "name": "Manipur",
       "lfpr_latest": 59.6,
-      "wpr_latest": 56.0,
+      "wpr_latest": 56,
       "ur_latest": 6.1,
       "lfpr_trend": [
         {
@@ -4637,7 +4636,7 @@
         },
         {
           "year": "2020-21",
-          "value": 41.0
+          "value": 41
         },
         {
           "year": "2021-22",
@@ -4649,7 +4648,7 @@
         },
         {
           "year": "2023-24",
-          "value": 56.0
+          "value": 56
         }
       ],
       "ur_trend": [
@@ -4671,7 +4670,7 @@
         },
         {
           "year": "2021-22",
-          "value": 9.0
+          "value": 9
         },
         {
           "year": "2022-23",
@@ -4716,7 +4715,7 @@
         },
         {
           "year": "2022-23",
-          "value": 70.0
+          "value": 70
         },
         {
           "year": "2023-24",
@@ -4738,7 +4737,7 @@
         },
         {
           "year": "2020-21",
-          "value": 62.0
+          "value": 62
         },
         {
           "year": "2021-22",
@@ -4776,7 +4775,7 @@
         },
         {
           "year": "2022-23",
-          "value": 6.0
+          "value": 6
         },
         {
           "year": "2023-24",
@@ -4792,7 +4791,7 @@
     {
       "name": "Mizoram",
       "lfpr_latest": 54.2,
-      "wpr_latest": 53.0,
+      "wpr_latest": 53,
       "ur_latest": 2.3,
       "lfpr_trend": [
         {
@@ -4801,7 +4800,7 @@
         },
         {
           "year": "2018-19",
-          "value": 49.0
+          "value": 49
         },
         {
           "year": "2019-20",
@@ -4851,7 +4850,7 @@
         },
         {
           "year": "2023-24",
-          "value": 53.0
+          "value": 53
         }
       ],
       "ur_trend": [
@@ -4861,7 +4860,7 @@
         },
         {
           "year": "2018-19",
-          "value": 7.0
+          "value": 7
         },
         {
           "year": "2019-20",
@@ -5063,7 +5062,7 @@
         },
         {
           "year": "2018-19",
-          "value": 7.0
+          "value": 7
         },
         {
           "year": "2019-20",
@@ -5075,7 +5074,7 @@
         },
         {
           "year": "2021-22",
-          "value": 6.0
+          "value": 6
         },
         {
           "year": "2022-23",
@@ -5095,7 +5094,7 @@
     {
       "name": "Puducherry",
       "lfpr_latest": 52.4,
-      "wpr_latest": 50.0,
+      "wpr_latest": 50,
       "ur_latest": 4.6,
       "lfpr_trend": [
         {
@@ -5154,7 +5153,7 @@
         },
         {
           "year": "2023-24",
-          "value": 50.0
+          "value": 50
         }
       ],
       "ur_trend": [
@@ -5306,7 +5305,7 @@
         },
         {
           "year": "2018-19",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2019-20",
@@ -5336,11 +5335,11 @@
         },
         {
           "year": "2018-19",
-          "value": 50.0
+          "value": 50
         },
         {
           "year": "2019-20",
-          "value": 55.0
+          "value": 55
         },
         {
           "year": "2020-21",
@@ -5362,7 +5361,7 @@
       "ur_trend": [
         {
           "year": "2017-18",
-          "value": 5.0
+          "value": 5
         },
         {
           "year": "2018-19",
@@ -5407,7 +5406,7 @@
         },
         {
           "year": "2018-19",
-          "value": 63.0
+          "value": 63
         },
         {
           "year": "2019-20",
@@ -5419,7 +5418,7 @@
         },
         {
           "year": "2021-22",
-          "value": 71.0
+          "value": 71
         },
         {
           "year": "2022-23",
@@ -5453,7 +5452,7 @@
         },
         {
           "year": "2022-23",
-          "value": 74.0
+          "value": 74
         },
         {
           "year": "2023-24",
@@ -5516,7 +5515,7 @@
         },
         {
           "year": "2020-21",
-          "value": 60.0
+          "value": 60
         },
         {
           "year": "2021-22",
@@ -5534,7 +5533,7 @@
       "wpr_trend": [
         {
           "year": "2017-18",
-          "value": 51.0
+          "value": 51
         },
         {
           "year": "2018-19",
@@ -5673,7 +5672,7 @@
         },
         {
           "year": "2019-20",
-          "value": 7.0
+          "value": 7
         },
         {
           "year": "2020-21",
@@ -5700,8 +5699,8 @@
     },
     {
       "name": "Tripura",
-      "lfpr_latest": 63.0,
-      "wpr_latest": 62.0,
+      "lfpr_latest": 63,
+      "wpr_latest": 62,
       "ur_latest": 1.7,
       "lfpr_trend": [
         {
@@ -5730,13 +5729,13 @@
         },
         {
           "year": "2023-24",
-          "value": 63.0
+          "value": 63
         }
       ],
       "wpr_trend": [
         {
           "year": "2017-18",
-          "value": 42.0
+          "value": 42
         },
         {
           "year": "2018-19",
@@ -5760,7 +5759,7 @@
         },
         {
           "year": "2023-24",
-          "value": 62.0
+          "value": 62
         }
       ],
       "ur_trend": [
@@ -5770,7 +5769,7 @@
         },
         {
           "year": "2018-19",
-          "value": 10.0
+          "value": 10
         },
         {
           "year": "2019-20",
@@ -5782,7 +5781,7 @@
         },
         {
           "year": "2021-22",
-          "value": 3.0
+          "value": 3
         },
         {
           "year": "2022-23",
@@ -5796,7 +5795,7 @@
       "lfpr_by_gender": {
         "male": 78.9,
         "female": 47.1,
-        "person": 63.0
+        "person": 63
       }
     },
     {
@@ -5849,7 +5848,7 @@
         },
         {
           "year": "2020-21",
-          "value": 48.0
+          "value": 48
         },
         {
           "year": "2021-22",
@@ -5928,7 +5927,7 @@
         },
         {
           "year": "2022-23",
-          "value": 56.0
+          "value": 56
         },
         {
           "year": "2023-24",
@@ -6051,7 +6050,7 @@
         },
         {
           "year": "2020-21",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2021-22",
@@ -6146,7 +6145,7 @@
         },
         {
           "year": "2019-20",
-          "value": 33.0
+          "value": 33
         },
         {
           "year": "2020-21",
@@ -6254,7 +6253,7 @@
         },
         {
           "year": "2023-24",
-          "value": 28.0
+          "value": 28
         }
       ],
       "person": [
@@ -6284,7 +6283,7 @@
         },
         {
           "year": "2023-24",
-          "value": 52.0
+          "value": 52
         }
       ]
     },
@@ -6304,7 +6303,7 @@
         },
         {
           "year": "2020-21",
-          "value": 77.0
+          "value": 77
         },
         {
           "year": "2021-22",
@@ -6330,7 +6329,7 @@
         },
         {
           "year": "2019-20",
-          "value": 30.0
+          "value": 30
         },
         {
           "year": "2020-21",
@@ -6342,7 +6341,7 @@
         },
         {
           "year": "2022-23",
-          "value": 37.0
+          "value": 37
         },
         {
           "year": "2023-24",
@@ -6398,7 +6397,7 @@
         },
         {
           "year": "2020-21",
-          "value": 77.0
+          "value": 77
         },
         {
           "year": "2021-22",
@@ -6424,7 +6423,7 @@
         },
         {
           "year": "2019-20",
-          "value": 30.0
+          "value": 30
         },
         {
           "year": "2020-21",
@@ -6436,7 +6435,7 @@
         },
         {
           "year": "2022-23",
-          "value": 37.0
+          "value": 37
         },
         {
           "year": "2023-24",
@@ -6486,7 +6485,7 @@
         },
         {
           "year": "2019-20",
-          "value": 60.0
+          "value": 60
         },
         {
           "year": "2020-21",
@@ -6554,7 +6553,7 @@
         },
         {
           "year": "2021-22",
-          "value": 42.0
+          "value": 42
         },
         {
           "year": "2022-23",
@@ -6630,7 +6629,7 @@
       "person": [
         {
           "year": "2017-18",
-          "value": 53.0
+          "value": 53
         },
         {
           "year": "2018-19",
@@ -6849,11 +6848,11 @@
       },
       {
         "year": "2018-19",
-        "value": 59.0
+        "value": 59
       },
       {
         "year": "2019-20",
-        "value": 65.0
+        "value": 65
       },
       {
         "year": "2020-21",
@@ -6927,7 +6926,7 @@
       },
       {
         "year": "2022-23",
-        "value": 59.0
+        "value": 59
       },
       {
         "year": "2023-24",
@@ -6937,7 +6936,7 @@
     "Islam": [
       {
         "year": "2017-18",
-        "value": 45.0
+        "value": 45
       },
       {
         "year": "2018-19",
@@ -6949,11 +6948,11 @@
       },
       {
         "year": "2020-21",
-        "value": 50.0
+        "value": 50
       },
       {
         "year": "2021-22",
-        "value": 50.0
+        "value": 50
       },
       {
         "year": "2022-23",
@@ -6961,7 +6960,7 @@
       },
       {
         "year": "2023-24",
-        "value": 55.0
+        "value": 55
       }
     ],
     "Sikhism": [
@@ -7139,11 +7138,11 @@
       },
       {
         "year": "2022-23",
-        "value": 39.0
+        "value": 39
       },
       {
         "year": "2023-24",
-        "value": 39.0
+        "value": 39
       }
     ]
   },
@@ -7273,7 +7272,7 @@
     "not eligible for paid leave, w.o. written job contract and w.o. any SSB": [
       {
         "year": "2017-18",
-        "value": 38.0
+        "value": 38
       },
       {
         "year": "2018-19",
@@ -7319,7 +7318,7 @@
       },
       {
         "year": "2021-22",
-        "value": 62.0
+        "value": 62
       },
       {
         "year": "2022-23",
@@ -7327,7 +7326,7 @@
       },
       {
         "year": "2023-24",
-        "value": 58.0
+        "value": 58
       }
     ],
     "without any social security benefit": [
@@ -7349,7 +7348,7 @@
       },
       {
         "year": "2021-22",
-        "value": 53.0
+        "value": 53
       },
       {
         "year": "2022-23",
@@ -7360,339 +7359,5 @@
         "value": 53.4
       }
     ]
-  },
-  "wages": {
-    "regular_monthly": {
-      "label": "Regular Wage (₹/month)",
-      "by_gender": {
-        "male": [
-          {
-            "year": "2017-18",
-            "value": 17298.7
-          },
-          {
-            "year": "2018-19",
-            "value": 16858.6
-          },
-          {
-            "year": "2019-20",
-            "value": 17664.2
-          },
-          {
-            "year": "2020-21",
-            "value": 18772.0
-          },
-          {
-            "year": "2021-22",
-            "value": 19463.3
-          },
-          {
-            "year": "2022-23",
-            "value": 20666.0
-          },
-          {
-            "year": "2023-24",
-            "value": 22092.2
-          }
-        ],
-        "female": [
-          {
-            "year": "2017-18",
-            "value": 13816.9
-          },
-          {
-            "year": "2018-19",
-            "value": 12487.0
-          },
-          {
-            "year": "2019-20",
-            "value": 13771.3
-          },
-          {
-            "year": "2020-21",
-            "value": 13731.3
-          },
-          {
-            "year": "2021-22",
-            "value": 14691.6
-          },
-          {
-            "year": "2022-23",
-            "value": 15722.2
-          },
-          {
-            "year": "2023-24",
-            "value": 16497.8
-          }
-        ],
-        "person": [
-          {
-            "year": "2017-18",
-            "value": 16527.2
-          },
-          {
-            "year": "2018-19",
-            "value": 15884.8
-          },
-          {
-            "year": "2019-20",
-            "value": 16728.3
-          },
-          {
-            "year": "2020-21",
-            "value": 17571.8
-          },
-          {
-            "year": "2021-22",
-            "value": 18391.0
-          },
-          {
-            "year": "2022-23",
-            "value": 19491.4
-          },
-          {
-            "year": "2023-24",
-            "value": 20702.3
-          }
-        ]
-      },
-      "latest_male": 22092.2,
-      "latest_female": 16497.8,
-      "latest_person": 20702.3
-    },
-    "casual_daily": {
-      "label": "Casual Wage (₹/day)",
-      "by_gender": {
-        "male": [
-          {
-            "year": "2017-18",
-            "value": 277.4
-          },
-          {
-            "year": "2018-19",
-            "value": 298.7
-          },
-          {
-            "year": "2019-20",
-            "value": 318.9
-          },
-          {
-            "year": "2020-21",
-            "value": 347.5
-          },
-          {
-            "year": "2021-22",
-            "value": 401.5
-          },
-          {
-            "year": "2022-23",
-            "value": 433.0
-          },
-          {
-            "year": "2023-24",
-            "value": 450.2
-          }
-        ],
-        "female": [
-          {
-            "year": "2017-18",
-            "value": 175.3
-          },
-          {
-            "year": "2018-19",
-            "value": 190.7
-          },
-          {
-            "year": "2019-20",
-            "value": 202.6
-          },
-          {
-            "year": "2020-21",
-            "value": 224.9
-          },
-          {
-            "year": "2021-22",
-            "value": 267.2
-          },
-          {
-            "year": "2022-23",
-            "value": 279.4
-          },
-          {
-            "year": "2023-24",
-            "value": 296.4
-          }
-        ],
-        "person": [
-          {
-            "year": "2017-18",
-            "value": 255.8
-          },
-          {
-            "year": "2018-19",
-            "value": 277.3
-          },
-          {
-            "year": "2019-20",
-            "value": 290.6
-          },
-          {
-            "year": "2020-21",
-            "value": 318.5
-          },
-          {
-            "year": "2021-22",
-            "value": 374.2
-          },
-          {
-            "year": "2022-23",
-            "value": 402.6
-          },
-          {
-            "year": "2023-24",
-            "value": 417.8
-          }
-        ]
-      },
-      "latest_male": 450.2,
-      "latest_female": 296.4,
-      "latest_person": 417.8
-    },
-    "self_employment_monthly": {
-      "label": "Self-Employment (₹/month)",
-      "by_gender": {
-        "male": [
-          {
-            "year": "2017-18",
-            "value": 12912.8
-          },
-          {
-            "year": "2018-19",
-            "value": 11171.2
-          },
-          {
-            "year": "2019-20",
-            "value": 11369.0
-          },
-          {
-            "year": "2020-21",
-            "value": 11607.2
-          },
-          {
-            "year": "2021-22",
-            "value": 13062.0
-          },
-          {
-            "year": "2022-23",
-            "value": 15197.0
-          },
-          {
-            "year": "2023-24",
-            "value": 16006.9
-          }
-        ],
-        "female": [
-          {
-            "year": "2017-18",
-            "value": 5935.2
-          },
-          {
-            "year": "2018-19",
-            "value": 4845.2
-          },
-          {
-            "year": "2019-20",
-            "value": 5334.7
-          },
-          {
-            "year": "2020-21",
-            "value": 5093.6
-          },
-          {
-            "year": "2021-22",
-            "value": 5353.6
-          },
-          {
-            "year": "2022-23",
-            "value": 5515.6
-          },
-          {
-            "year": "2023-24",
-            "value": 5496.7
-          }
-        ],
-        "person": [
-          {
-            "year": "2017-18",
-            "value": 12028.5
-          },
-          {
-            "year": "2018-19",
-            "value": 10323.3
-          },
-          {
-            "year": "2019-20",
-            "value": 10453.8
-          },
-          {
-            "year": "2020-21",
-            "value": 10562.8
-          },
-          {
-            "year": "2021-22",
-            "value": 11677.9
-          },
-          {
-            "year": "2022-23",
-            "value": 13130.7
-          },
-          {
-            "year": "2023-24",
-            "value": 13278.9
-          }
-        ]
-      },
-      "latest_male": 16006.9,
-      "latest_female": 5496.7,
-      "latest_person": 13278.9
-    },
-    "state_regular_wages": {
-      "Andaman & Nicobar Islands": 32829.9,
-      "Andhra Pradesh": 20912.0,
-      "Arunachal Pradesh": 32434.4,
-      "Assam": 17022.3,
-      "Bihar": 19353.3,
-      "Chandigarh": 30916.1,
-      "Chhattisgarh": 17231.2,
-      "Dadra & Nagar Haveli & Daman & Diu": 18641.6,
-      "Delhi": 22699.1,
-      "Goa": 29307.1,
-      "Gujarat": 17392.5,
-      "Haryana": 22737.7,
-      "Himachal Pradesh": 23395.1,
-      "Jammu & Kashmir": 29126.2,
-      "Jharkhand": 19814.2,
-      "Karnataka": 25472.0,
-      "Kerala": 22646.3,
-      "Ladakh": 38637.4,
-      "Lakshadweep": 34370.8,
-      "Madhya Pradesh": 18246.8,
-      "Maharashtra": 23839.7,
-      "Manipur": 25823.9,
-      "Meghalaya": 22451.7,
-      "Mizoram": 32839.2,
-      "Nagaland": 29690.3,
-      "Odisha": 19182.0,
-      "Puducherry": 22878.0,
-      "Punjab": 16140.8,
-      "Rajasthan": 18853.2,
-      "Sikkim": 22607.2,
-      "Tamil Nadu": 20839.2,
-      "Telangana": 26360.4,
-      "Tripura": 23085.3,
-      "Uttarakhand": 19488.9,
-      "Uttar Pradesh": 18459.4,
-      "West Bengal": 16649.7
-    }
   }
 }
