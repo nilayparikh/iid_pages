@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages SPA redirect: store the path and redirect to the app root
+    var path = window.location.pathname;
+    // Find the app prefix (e.g., /ai-exposure)
+    var segments = path.split('/').filter(Boolean);
+    if (segments.length > 0) {
+      var appBase = '/' + segments[0] + '/';
+      var rest = '/' + segments.slice(1).join('/') + window.location.search + window.location.hash;
+      sessionStorage.setItem('spa-redirect', rest);
+      window.location.replace(appBase);
+    } else {
+      window.location.replace('/');
+    }
+  </script>
+</head>
+
+<body></body>
+
+</html>
