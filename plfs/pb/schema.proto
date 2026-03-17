@@ -1,0 +1,112 @@
+syntax = "proto3";
+
+// ─── Reusable building blocks ────────────────────────────────────
+
+message GenderSectorEntry {
+  string year = 1;
+  float male = 2;
+  float female = 3;
+  float person = 4;
+  float rural = 5;
+  float urban = 6;
+}
+
+message GenderEntry {
+  string year = 1;
+  float male = 2;
+  float female = 3;
+  float person = 4;
+}
+
+message EmploymentStatusEntry {
+  string year = 1;
+  float self_employed = 2;
+  float regular = 3;
+  float casual = 4;
+}
+
+message EmploymentConditionsEntry {
+  string year = 1;
+  float no_written_contract = 2;
+  float no_paid_leave = 3;
+  float no_social_security = 4;
+}
+
+message State {
+  string name = 1;
+  string code = 2;
+  float lfpr = 3;
+  float wpr = 4;
+  float ur = 5;
+  string sector = 6;
+}
+
+message EducationLevel {
+  string level = 1;
+  float lfpr = 2;
+  float wpr = 3;
+  float ur = 4;
+}
+
+message AgeGroup {
+  string group = 1;
+  float lfpr = 2;
+  float wpr = 3;
+  float ur = 4;
+}
+
+message SectorIndicator {
+  float lfpr = 1;
+  float wpr = 2;
+  float ur = 3;
+}
+
+// ─── Summary ─────────────────────────────────────────────────────
+
+message Summary {
+  string survey = 1;
+  string organization = 2;
+  string latest_year = 3;
+  int32 years_covered = 4;
+  float total_workforce_millions = 5;
+  float lfpr = 6;
+  float wpr = 7;
+  float ur = 8;
+  float avg_monthly_earnings_regular = 9;
+  float avg_daily_earnings_casual = 10;
+  float avg_monthly_earnings_self_employed = 11;
+}
+
+// ─── Per-page bundles ────────────────────────────────────────────
+
+message OverviewPage {
+  Summary summary = 1;
+  repeated GenderSectorEntry lfpr = 2;
+  repeated GenderSectorEntry wpr = 3;
+  repeated GenderSectorEntry ur = 4;
+  repeated EducationLevel by_education = 5;
+  repeated AgeGroup by_age = 6;
+  SectorIndicator rural = 7;
+  SectorIndicator urban = 8;
+}
+
+message TrendsPage {
+  repeated GenderSectorEntry lfpr = 1;
+  repeated GenderSectorEntry wpr = 2;
+  repeated GenderSectorEntry ur = 3;
+}
+
+message EmploymentPage {
+  repeated EmploymentStatusEntry employment_status = 1;
+  repeated EmploymentConditionsEntry employment_conditions = 2;
+}
+
+message WagesPage {
+  repeated GenderEntry wages_regular = 1;
+  repeated GenderEntry wages_casual = 2;
+  repeated GenderEntry wages_self_employed = 3;
+}
+
+message StatesPage {
+  repeated State states = 1;
+}
