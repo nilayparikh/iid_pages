@@ -7,7 +7,6 @@
   <script>
     // GitHub Pages SPA redirect: store the path and redirect to the app root
     var path = window.location.pathname;
-    // Find the app prefix (e.g., /ai-exposure)
     var segments = path.split('/').filter(Boolean);
     if (segments.length > 0) {
       var appBase = '/' + segments[0] + '/';
