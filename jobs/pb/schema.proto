@@ -81,3 +81,24 @@ message CityRecord {
   repeated MonthValue    values           = 7;
   repeated ReportSnapshot snapshots       = 8;
 }
+
+// ── States page ─────────────────────────────────────────────────
+
+message StatesPage {
+  repeated StateRecord states        = 1;
+  repeated string      report_months = 2;
+  string               base_month    = 3;
+}
+
+message StateRecord {
+  string                 state            = 1;
+  float                  current_value    = 2;
+  float                  prior_year_value = 3;
+  int32                  yoy_percent      = 4;
+  int32                  mom_percent      = 5;
+  repeated MonthValue    values           = 6;
+  repeated ReportSnapshot snapshots       = 7;
+  repeated MonthValue    lower_band       = 8;
+  repeated MonthValue    upper_band       = 9;
+  int32                  city_count       = 10;
+}
