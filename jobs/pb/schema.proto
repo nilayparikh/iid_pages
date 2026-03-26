@@ -1,0 +1,83 @@
+syntax = "proto3";
+
+// ── Shared ──────────────────────────────────────────────────────
+
+message MonthValue {
+  string month = 1;
+  float  value = 2;
+}
+
+// ── Report-month snapshot (for historical drill-down) ───────────
+
+message ReportSnapshot {
+  string              report_month = 1;
+  repeated MonthValue values       = 2;
+}
+
+// ── Overview page ───────────────────────────────────────────────
+
+message OverviewPage {
+  Summary                   summary        = 1;
+  repeated IndustrySnapshot top_gainers    = 2;
+  repeated IndustrySnapshot top_decliners  = 3;
+  repeated CitySnapshot     top_cities     = 4;
+  string                    base_month     = 5;
+}
+
+message Summary {
+  string latest_month      = 1;
+  int32  total_industries  = 2;
+  int32  total_cities      = 3;
+  int32  total_states      = 4;
+  string month_range_start = 5;
+  string month_range_end   = 6;
+  int32  total_months      = 7;
+}
+
+message IndustrySnapshot {
+  string industry    = 1;
+  float  latest      = 2;
+  int32  yoy_percent = 3;
+}
+
+message CitySnapshot {
+  string city          = 1;
+  string state         = 2;
+  float  current_value = 3;
+  int32  yoy_percent   = 4;
+  int32  mom_percent   = 5;
+}
+
+// ── Industries page ─────────────────────────────────────────────
+
+message IndustriesPage {
+  repeated IndustrySeries industries     = 1;
+  repeated string         report_months  = 2;
+  string                  base_month     = 3;
+}
+
+message IndustrySeries {
+  string                 industry          = 1;
+  int32                  reported_yoy_pct  = 2;
+  repeated MonthValue    values            = 3;
+  repeated ReportSnapshot snapshots        = 4;
+}
+
+// ── Cities page ─────────────────────────────────────────────────
+
+message CitiesPage {
+  repeated CityRecord cities        = 1;
+  repeated string     report_months = 2;
+  string              base_month    = 3;
+}
+
+message CityRecord {
+  string                 city             = 1;
+  string                 state            = 2;
+  float                  current_value    = 3;
+  float                  prior_year_value = 4;
+  int32                  yoy_percent      = 5;
+  int32                  mom_percent      = 6;
+  repeated MonthValue    values           = 7;
+  repeated ReportSnapshot snapshots       = 8;
+}
